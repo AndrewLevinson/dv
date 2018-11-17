@@ -1,0 +1,50 @@
+body {
+  background-color: #f8efe7;
+  font-family: monospace;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    text-align: left;
+    margin-top: 12.5%;
+  }
+}
+
+h1 {
+  font-weight: 300;
+  line-height: 0.25;
+}
+
+a {
+  color: #5863f8;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+ol {
+  margin-top: 40px;
+  margin-left: 1px;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+
+ul {
+  margin: 2px 0px 12px 0px;
+  list-style-position: outside;
+}
+
+.lists {
+  margin-top: 40px;
+}

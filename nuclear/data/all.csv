@@ -1,0 +1,1169 @@
+year,country,location,tests
+1945,China,atmosphere,0
+1945,China,underground,0
+1945,France,atmosphere,0
+1945,France,underground,0
+1945,India,atmosphere,0
+1945,India,underground,0
+1945,North Korea,atmosphere,0
+1945,North Korea,underground,0
+1945,Pakistan,atmosphere,0
+1945,Pakistan,underground,0
+1945,Russia,atmosphere,0
+1945,Russia,underground,0
+1945,United Kingdom,atmosphere,0
+1945,United Kingdom,underground,0
+1945,United States,atmosphere,1
+1945,United States,underground,0
+1946,China,atmosphere,0
+1946,China,underground,0
+1946,France,atmosphere,0
+1946,France,underground,0
+1946,India,atmosphere,0
+1946,India,underground,0
+1946,North Korea,atmosphere,0
+1946,North Korea,underground,0
+1946,Pakistan,atmosphere,0
+1946,Pakistan,underground,0
+1946,Russia,atmosphere,0
+1946,Russia,underground,0
+1946,United Kingdom,atmosphere,0
+1946,United Kingdom,underground,0
+1946,United States,atmosphere,2
+1946,United States,underground,0
+1947,China,atmosphere,0
+1947,China,underground,0
+1947,France,atmosphere,0
+1947,France,underground,0
+1947,India,atmosphere,0
+1947,India,underground,0
+1947,North Korea,atmosphere,0
+1947,North Korea,underground,0
+1947,Pakistan,atmosphere,0
+1947,Pakistan,underground,0
+1947,Russia,atmosphere,0
+1947,Russia,underground,0
+1947,United Kingdom,atmosphere,0
+1947,United Kingdom,underground,0
+1947,United States,atmosphere,0
+1947,United States,underground,0
+1948,China,atmosphere,0
+1948,China,underground,0
+1948,France,atmosphere,0
+1948,France,underground,0
+1948,India,atmosphere,0
+1948,India,underground,0
+1948,North Korea,atmosphere,0
+1948,North Korea,underground,0
+1948,Pakistan,atmosphere,0
+1948,Pakistan,underground,0
+1948,Russia,atmosphere,0
+1948,Russia,underground,0
+1948,United Kingdom,atmosphere,0
+1948,United Kingdom,underground,0
+1948,United States,atmosphere,3
+1948,United States,underground,0
+1949,China,atmosphere,0
+1949,China,underground,0
+1949,France,atmosphere,0
+1949,France,underground,0
+1949,India,atmosphere,0
+1949,India,underground,0
+1949,North Korea,atmosphere,0
+1949,North Korea,underground,0
+1949,Pakistan,atmosphere,0
+1949,Pakistan,underground,0
+1949,Russia,atmosphere,1
+1949,Russia,underground,0
+1949,United Kingdom,atmosphere,0
+1949,United Kingdom,underground,0
+1949,United States,atmosphere,0
+1949,United States,underground,0
+1950,China,atmosphere,0
+1950,China,underground,0
+1950,France,atmosphere,0
+1950,France,underground,0
+1950,India,atmosphere,0
+1950,India,underground,0
+1950,North Korea,atmosphere,0
+1950,North Korea,underground,0
+1950,Pakistan,atmosphere,0
+1950,Pakistan,underground,0
+1950,Russia,atmosphere,0
+1950,Russia,underground,0
+1950,United Kingdom,atmosphere,0
+1950,United Kingdom,underground,0
+1950,United States,atmosphere,0
+1950,United States,underground,0
+1951,China,atmosphere,0
+1951,China,underground,0
+1951,France,atmosphere,0
+1951,France,underground,0
+1951,India,atmosphere,0
+1951,India,underground,0
+1951,North Korea,atmosphere,0
+1951,North Korea,underground,0
+1951,Pakistan,atmosphere,0
+1951,Pakistan,underground,0
+1951,Russia,atmosphere,2
+1951,Russia,underground,0
+1951,United Kingdom,atmosphere,0
+1951,United Kingdom,underground,0
+1951,United States,atmosphere,15
+1951,United States,underground,1
+1952,China,atmosphere,0
+1952,China,underground,0
+1952,France,atmosphere,0
+1952,France,underground,0
+1952,India,atmosphere,0
+1952,India,underground,0
+1952,North Korea,atmosphere,0
+1952,North Korea,underground,0
+1952,Pakistan,atmosphere,0
+1952,Pakistan,underground,0
+1952,Russia,atmosphere,0
+1952,Russia,underground,0
+1952,United Kingdom,atmosphere,1
+1952,United Kingdom,underground,0
+1952,United States,atmosphere,10
+1952,United States,underground,0
+1953,China,atmosphere,0
+1953,China,underground,0
+1953,France,atmosphere,0
+1953,France,underground,0
+1953,India,atmosphere,0
+1953,India,underground,0
+1953,North Korea,atmosphere,0
+1953,North Korea,underground,0
+1953,Pakistan,atmosphere,0
+1953,Pakistan,underground,0
+1953,Russia,atmosphere,5
+1953,Russia,underground,0
+1953,United Kingdom,atmosphere,2
+1953,United Kingdom,underground,0
+1953,United States,atmosphere,11
+1953,United States,underground,0
+1954,China,atmosphere,0
+1954,China,underground,0
+1954,France,atmosphere,0
+1954,France,underground,0
+1954,India,atmosphere,0
+1954,India,underground,0
+1954,North Korea,atmosphere,0
+1954,North Korea,underground,0
+1954,Pakistan,atmosphere,0
+1954,Pakistan,underground,0
+1954,Russia,atmosphere,10
+1954,Russia,underground,0
+1954,United Kingdom,atmosphere,0
+1954,United Kingdom,underground,0
+1954,United States,atmosphere,6
+1954,United States,underground,0
+1955,China,atmosphere,0
+1955,China,underground,0
+1955,France,atmosphere,0
+1955,France,underground,0
+1955,India,atmosphere,0
+1955,India,underground,0
+1955,North Korea,atmosphere,0
+1955,North Korea,underground,0
+1955,Pakistan,atmosphere,0
+1955,Pakistan,underground,0
+1955,Russia,atmosphere,6
+1955,Russia,underground,0
+1955,United Kingdom,atmosphere,0
+1955,United Kingdom,underground,0
+1955,United States,atmosphere,17
+1955,United States,underground,1
+1956,China,atmosphere,0
+1956,China,underground,0
+1956,France,atmosphere,0
+1956,France,underground,0
+1956,India,atmosphere,0
+1956,India,underground,0
+1956,North Korea,atmosphere,0
+1956,North Korea,underground,0
+1956,Pakistan,atmosphere,0
+1956,Pakistan,underground,0
+1956,Russia,atmosphere,9
+1956,Russia,underground,0
+1956,United Kingdom,atmosphere,6
+1956,United Kingdom,underground,0
+1956,United States,atmosphere,18
+1956,United States,underground,0
+1957,China,atmosphere,0
+1957,China,underground,0
+1957,France,atmosphere,0
+1957,France,underground,0
+1957,India,atmosphere,0
+1957,India,underground,0
+1957,North Korea,atmosphere,0
+1957,North Korea,underground,0
+1957,Pakistan,atmosphere,0
+1957,Pakistan,underground,0
+1957,Russia,atmosphere,16
+1957,Russia,underground,0
+1957,United Kingdom,atmosphere,7
+1957,United Kingdom,underground,0
+1957,United States,atmosphere,27
+1957,United States,underground,5
+1958,China,atmosphere,0
+1958,China,underground,0
+1958,France,atmosphere,0
+1958,France,underground,0
+1958,India,atmosphere,0
+1958,India,underground,0
+1958,North Korea,atmosphere,0
+1958,North Korea,underground,0
+1958,Pakistan,atmosphere,0
+1958,Pakistan,underground,0
+1958,Russia,atmosphere,34
+1958,Russia,underground,0
+1958,United Kingdom,atmosphere,5
+1958,United Kingdom,underground,0
+1958,United States,atmosphere,62
+1958,United States,underground,15
+1959,China,atmosphere,0
+1959,China,underground,0
+1959,France,atmosphere,0
+1959,France,underground,0
+1959,India,atmosphere,0
+1959,India,underground,0
+1959,North Korea,atmosphere,0
+1959,North Korea,underground,0
+1959,Pakistan,atmosphere,0
+1959,Pakistan,underground,0
+1959,Russia,atmosphere,0
+1959,Russia,underground,0
+1959,United Kingdom,atmosphere,0
+1959,United Kingdom,underground,0
+1959,United States,atmosphere,0
+1959,United States,underground,0
+1960,China,atmosphere,0
+1960,China,underground,0
+1960,France,atmosphere,3
+1960,France,underground,0
+1960,India,atmosphere,0
+1960,India,underground,0
+1960,North Korea,atmosphere,0
+1960,North Korea,underground,0
+1960,Pakistan,atmosphere,0
+1960,Pakistan,underground,0
+1960,Russia,atmosphere,0
+1960,Russia,underground,0
+1960,United Kingdom,atmosphere,0
+1960,United Kingdom,underground,0
+1960,United States,atmosphere,0
+1960,United States,underground,0
+1961,China,atmosphere,0
+1961,China,underground,0
+1961,France,atmosphere,1
+1961,France,underground,1
+1961,India,atmosphere,0
+1961,India,underground,0
+1961,North Korea,atmosphere,0
+1961,North Korea,underground,0
+1961,Pakistan,atmosphere,0
+1961,Pakistan,underground,0
+1961,Russia,atmosphere,58
+1961,Russia,underground,1
+1961,United Kingdom,atmosphere,0
+1961,United Kingdom,underground,0
+1961,United States,atmosphere,0
+1961,United States,underground,10
+1962,China,atmosphere,0
+1962,China,underground,0
+1962,France,atmosphere,0
+1962,France,underground,1
+1962,India,atmosphere,0
+1962,India,underground,0
+1962,North Korea,atmosphere,0
+1962,North Korea,underground,0
+1962,Pakistan,atmosphere,0
+1962,Pakistan,underground,0
+1962,Russia,atmosphere,78
+1962,Russia,underground,1
+1962,United Kingdom,atmosphere,0
+1962,United Kingdom,underground,2
+1962,United States,atmosphere,39
+1962,United States,underground,57
+1963,China,atmosphere,0
+1963,China,underground,0
+1963,France,atmosphere,0
+1963,France,underground,3
+1963,India,atmosphere,0
+1963,India,underground,0
+1963,North Korea,atmosphere,0
+1963,North Korea,underground,0
+1963,Pakistan,atmosphere,0
+1963,Pakistan,underground,0
+1963,Russia,atmosphere,0
+1963,Russia,underground,0
+1963,United Kingdom,atmosphere,0
+1963,United Kingdom,underground,0
+1963,United States,atmosphere,4
+1963,United States,underground,43
+1964,China,atmosphere,1
+1964,China,underground,0
+1964,France,atmosphere,0
+1964,France,underground,3
+1964,India,atmosphere,0
+1964,India,underground,0
+1964,North Korea,atmosphere,0
+1964,North Korea,underground,0
+1964,Pakistan,atmosphere,0
+1964,Pakistan,underground,0
+1964,Russia,atmosphere,0
+1964,Russia,underground,9
+1964,United Kingdom,atmosphere,0
+1964,United Kingdom,underground,2
+1964,United States,atmosphere,0
+1964,United States,underground,45
+1965,China,atmosphere,1
+1965,China,underground,0
+1965,France,atmosphere,0
+1965,France,underground,4
+1965,India,atmosphere,0
+1965,India,underground,0
+1965,North Korea,atmosphere,0
+1965,North Korea,underground,0
+1965,Pakistan,atmosphere,0
+1965,Pakistan,underground,0
+1965,Russia,atmosphere,0
+1965,Russia,underground,14
+1965,United Kingdom,atmosphere,0
+1965,United Kingdom,underground,1
+1965,United States,atmosphere,0
+1965,United States,underground,38
+1966,China,atmosphere,3
+1966,China,underground,0
+1966,France,atmosphere,6
+1966,France,underground,1
+1966,India,atmosphere,0
+1966,India,underground,0
+1966,North Korea,atmosphere,0
+1966,North Korea,underground,0
+1966,Pakistan,atmosphere,0
+1966,Pakistan,underground,0
+1966,Russia,atmosphere,0
+1966,Russia,underground,18
+1966,United Kingdom,atmosphere,0
+1966,United Kingdom,underground,0
+1966,United States,atmosphere,0
+1966,United States,underground,48
+1967,China,atmosphere,2
+1967,China,underground,0
+1967,France,atmosphere,3
+1967,France,underground,0
+1967,India,atmosphere,0
+1967,India,underground,0
+1967,North Korea,atmosphere,0
+1967,North Korea,underground,0
+1967,Pakistan,atmosphere,0
+1967,Pakistan,underground,0
+1967,Russia,atmosphere,0
+1967,Russia,underground,17
+1967,United Kingdom,atmosphere,0
+1967,United Kingdom,underground,0
+1967,United States,atmosphere,0
+1967,United States,underground,42
+1968,China,atmosphere,1
+1968,China,underground,0
+1968,France,atmosphere,5
+1968,France,underground,0
+1968,India,atmosphere,0
+1968,India,underground,0
+1968,North Korea,atmosphere,0
+1968,North Korea,underground,0
+1968,Pakistan,atmosphere,0
+1968,Pakistan,underground,0
+1968,Russia,atmosphere,0
+1968,Russia,underground,17
+1968,United Kingdom,atmosphere,0
+1968,United Kingdom,underground,0
+1968,United States,atmosphere,0
+1968,United States,underground,56
+1969,China,atmosphere,1
+1969,China,underground,1
+1969,France,atmosphere,0
+1969,France,underground,0
+1969,India,atmosphere,0
+1969,India,underground,0
+1969,North Korea,atmosphere,0
+1969,North Korea,underground,0
+1969,Pakistan,atmosphere,0
+1969,Pakistan,underground,0
+1969,Russia,atmosphere,0
+1969,Russia,underground,19
+1969,United Kingdom,atmosphere,0
+1969,United Kingdom,underground,0
+1969,United States,atmosphere,0
+1969,United States,underground,46
+1970,China,atmosphere,1
+1970,China,underground,0
+1970,France,atmosphere,8
+1970,France,underground,0
+1970,India,atmosphere,0
+1970,India,underground,0
+1970,North Korea,atmosphere,0
+1970,North Korea,underground,0
+1970,Pakistan,atmosphere,0
+1970,Pakistan,underground,0
+1970,Russia,atmosphere,0
+1970,Russia,underground,16
+1970,United Kingdom,atmosphere,0
+1970,United Kingdom,underground,0
+1970,United States,atmosphere,0
+1970,United States,underground,39
+1971,China,atmosphere,1
+1971,China,underground,0
+1971,France,atmosphere,5
+1971,France,underground,0
+1971,India,atmosphere,0
+1971,India,underground,0
+1971,North Korea,atmosphere,0
+1971,North Korea,underground,0
+1971,Pakistan,atmosphere,0
+1971,Pakistan,underground,0
+1971,Russia,atmosphere,0
+1971,Russia,underground,23
+1971,United Kingdom,atmosphere,0
+1971,United Kingdom,underground,0
+1971,United States,atmosphere,0
+1971,United States,underground,24
+1972,China,atmosphere,2
+1972,China,underground,0
+1972,France,atmosphere,4
+1972,France,underground,0
+1972,India,atmosphere,0
+1972,India,underground,0
+1972,North Korea,atmosphere,0
+1972,North Korea,underground,0
+1972,Pakistan,atmosphere,0
+1972,Pakistan,underground,0
+1972,Russia,atmosphere,0
+1972,Russia,underground,24
+1972,United Kingdom,atmosphere,0
+1972,United Kingdom,underground,0
+1972,United States,atmosphere,0
+1972,United States,underground,27
+1973,China,atmosphere,1
+1973,China,underground,0
+1973,France,atmosphere,6
+1973,France,underground,0
+1973,India,atmosphere,0
+1973,India,underground,0
+1973,North Korea,atmosphere,0
+1973,North Korea,underground,0
+1973,Pakistan,atmosphere,0
+1973,Pakistan,underground,0
+1973,Russia,atmosphere,0
+1973,Russia,underground,17
+1973,United Kingdom,atmosphere,0
+1973,United Kingdom,underground,0
+1973,United States,atmosphere,0
+1973,United States,underground,24
+1974,China,atmosphere,1
+1974,China,underground,0
+1974,France,atmosphere,9
+1974,France,underground,0
+1974,India,atmosphere,0
+1974,India,underground,1
+1974,North Korea,atmosphere,0
+1974,North Korea,underground,0
+1974,Pakistan,atmosphere,0
+1974,Pakistan,underground,0
+1974,Russia,atmosphere,0
+1974,Russia,underground,21
+1974,United Kingdom,atmosphere,0
+1974,United Kingdom,underground,1
+1974,United States,atmosphere,0
+1974,United States,underground,22
+1975,China,atmosphere,0
+1975,China,underground,1
+1975,France,atmosphere,0
+1975,France,underground,2
+1975,India,atmosphere,0
+1975,India,underground,0
+1975,North Korea,atmosphere,0
+1975,North Korea,underground,0
+1975,Pakistan,atmosphere,0
+1975,Pakistan,underground,0
+1975,Russia,atmosphere,0
+1975,Russia,underground,19
+1975,United Kingdom,atmosphere,0
+1975,United Kingdom,underground,0
+1975,United States,atmosphere,0
+1975,United States,underground,22
+1976,China,atmosphere,3
+1976,China,underground,1
+1976,France,atmosphere,0
+1976,France,underground,5
+1976,India,atmosphere,0
+1976,India,underground,0
+1976,North Korea,atmosphere,0
+1976,North Korea,underground,0
+1976,Pakistan,atmosphere,0
+1976,Pakistan,underground,0
+1976,Russia,atmosphere,0
+1976,Russia,underground,21
+1976,United Kingdom,atmosphere,0
+1976,United Kingdom,underground,1
+1976,United States,atmosphere,0
+1976,United States,underground,20
+1977,China,atmosphere,1
+1977,China,underground,0
+1977,France,atmosphere,0
+1977,France,underground,9
+1977,India,atmosphere,0
+1977,India,underground,0
+1977,North Korea,atmosphere,0
+1977,North Korea,underground,0
+1977,Pakistan,atmosphere,0
+1977,Pakistan,underground,0
+1977,Russia,atmosphere,0
+1977,Russia,underground,24
+1977,United Kingdom,atmosphere,0
+1977,United Kingdom,underground,0
+1977,United States,atmosphere,0
+1977,United States,underground,20
+1978,China,atmosphere,2
+1978,China,underground,1
+1978,France,atmosphere,0
+1978,France,underground,11
+1978,India,atmosphere,0
+1978,India,underground,0
+1978,North Korea,atmosphere,0
+1978,North Korea,underground,0
+1978,Pakistan,atmosphere,0
+1978,Pakistan,underground,0
+1978,Russia,atmosphere,0
+1978,Russia,underground,31
+1978,United Kingdom,atmosphere,0
+1978,United Kingdom,underground,2
+1978,United States,atmosphere,0
+1978,United States,underground,19
+1979,China,atmosphere,1
+1979,China,underground,0
+1979,France,atmosphere,0
+1979,France,underground,10
+1979,India,atmosphere,0
+1979,India,underground,0
+1979,North Korea,atmosphere,0
+1979,North Korea,underground,0
+1979,Pakistan,atmosphere,0
+1979,Pakistan,underground,0
+1979,Russia,atmosphere,0
+1979,Russia,underground,31
+1979,United Kingdom,atmosphere,0
+1979,United Kingdom,underground,1
+1979,United States,atmosphere,0
+1979,United States,underground,15
+1980,China,atmosphere,1
+1980,China,underground,0
+1980,France,atmosphere,0
+1980,France,underground,12
+1980,India,atmosphere,0
+1980,India,underground,0
+1980,North Korea,atmosphere,0
+1980,North Korea,underground,0
+1980,Pakistan,atmosphere,0
+1980,Pakistan,underground,0
+1980,Russia,atmosphere,0
+1980,Russia,underground,24
+1980,United Kingdom,atmosphere,0
+1980,United Kingdom,underground,3
+1980,United States,atmosphere,0
+1980,United States,underground,14
+1981,China,atmosphere,0
+1981,China,underground,0
+1981,France,atmosphere,0
+1981,France,underground,12
+1981,India,atmosphere,0
+1981,India,underground,0
+1981,North Korea,atmosphere,0
+1981,North Korea,underground,0
+1981,Pakistan,atmosphere,0
+1981,Pakistan,underground,0
+1981,Russia,atmosphere,0
+1981,Russia,underground,21
+1981,United Kingdom,atmosphere,0
+1981,United Kingdom,underground,1
+1981,United States,atmosphere,0
+1981,United States,underground,16
+1982,China,atmosphere,0
+1982,China,underground,1
+1982,France,atmosphere,0
+1982,France,underground,10
+1982,India,atmosphere,0
+1982,India,underground,0
+1982,North Korea,atmosphere,0
+1982,North Korea,underground,0
+1982,Pakistan,atmosphere,0
+1982,Pakistan,underground,0
+1982,Russia,atmosphere,0
+1982,Russia,underground,19
+1982,United Kingdom,atmosphere,0
+1982,United Kingdom,underground,1
+1982,United States,atmosphere,0
+1982,United States,underground,18
+1983,China,atmosphere,0
+1983,China,underground,2
+1983,France,atmosphere,0
+1983,France,underground,9
+1983,India,atmosphere,0
+1983,India,underground,0
+1983,North Korea,atmosphere,0
+1983,North Korea,underground,0
+1983,Pakistan,atmosphere,0
+1983,Pakistan,underground,0
+1983,Russia,atmosphere,0
+1983,Russia,underground,25
+1983,United Kingdom,atmosphere,0
+1983,United Kingdom,underground,1
+1983,United States,atmosphere,0
+1983,United States,underground,18
+1984,China,atmosphere,0
+1984,China,underground,2
+1984,France,atmosphere,0
+1984,France,underground,8
+1984,India,atmosphere,0
+1984,India,underground,0
+1984,North Korea,atmosphere,0
+1984,North Korea,underground,0
+1984,Pakistan,atmosphere,0
+1984,Pakistan,underground,0
+1984,Russia,atmosphere,0
+1984,Russia,underground,27
+1984,United Kingdom,atmosphere,0
+1984,United Kingdom,underground,2
+1984,United States,atmosphere,0
+1984,United States,underground,18
+1985,China,atmosphere,0
+1985,China,underground,0
+1985,France,atmosphere,0
+1985,France,underground,8
+1985,India,atmosphere,0
+1985,India,underground,0
+1985,North Korea,atmosphere,0
+1985,North Korea,underground,0
+1985,Pakistan,atmosphere,0
+1985,Pakistan,underground,0
+1985,Russia,atmosphere,0
+1985,Russia,underground,10
+1985,United Kingdom,atmosphere,0
+1985,United Kingdom,underground,1
+1985,United States,atmosphere,0
+1985,United States,underground,17
+1986,China,atmosphere,0
+1986,China,underground,0
+1986,France,atmosphere,0
+1986,France,underground,8
+1986,India,atmosphere,0
+1986,India,underground,0
+1986,North Korea,atmosphere,0
+1986,North Korea,underground,0
+1986,Pakistan,atmosphere,0
+1986,Pakistan,underground,0
+1986,Russia,atmosphere,0
+1986,Russia,underground,0
+1986,United Kingdom,atmosphere,0
+1986,United Kingdom,underground,1
+1986,United States,atmosphere,0
+1986,United States,underground,14
+1987,China,atmosphere,0
+1987,China,underground,1
+1987,France,atmosphere,0
+1987,France,underground,8
+1987,India,atmosphere,0
+1987,India,underground,0
+1987,North Korea,atmosphere,0
+1987,North Korea,underground,0
+1987,Pakistan,atmosphere,0
+1987,Pakistan,underground,0
+1987,Russia,atmosphere,0
+1987,Russia,underground,23
+1987,United Kingdom,atmosphere,0
+1987,United Kingdom,underground,1
+1987,United States,atmosphere,0
+1987,United States,underground,14
+1988,China,atmosphere,0
+1988,China,underground,1
+1988,France,atmosphere,0
+1988,France,underground,8
+1988,India,atmosphere,0
+1988,India,underground,0
+1988,North Korea,atmosphere,0
+1988,North Korea,underground,0
+1988,Pakistan,atmosphere,0
+1988,Pakistan,underground,0
+1988,Russia,atmosphere,0
+1988,Russia,underground,16
+1988,United Kingdom,atmosphere,0
+1988,United Kingdom,underground,0
+1988,United States,atmosphere,0
+1988,United States,underground,15
+1989,China,atmosphere,0
+1989,China,underground,0
+1989,France,atmosphere,0
+1989,France,underground,9
+1989,India,atmosphere,0
+1989,India,underground,0
+1989,North Korea,atmosphere,0
+1989,North Korea,underground,0
+1989,Pakistan,atmosphere,0
+1989,Pakistan,underground,0
+1989,Russia,atmosphere,0
+1989,Russia,underground,7
+1989,United Kingdom,atmosphere,0
+1989,United Kingdom,underground,1
+1989,United States,atmosphere,0
+1989,United States,underground,11
+1990,China,atmosphere,0
+1990,China,underground,2
+1990,France,atmosphere,0
+1990,France,underground,6
+1990,India,atmosphere,0
+1990,India,underground,0
+1990,North Korea,atmosphere,0
+1990,North Korea,underground,0
+1990,Pakistan,atmosphere,0
+1990,Pakistan,underground,0
+1990,Russia,atmosphere,0
+1990,Russia,underground,1
+1990,United Kingdom,atmosphere,0
+1990,United Kingdom,underground,1
+1990,United States,atmosphere,0
+1990,United States,underground,8
+1991,China,atmosphere,0
+1991,China,underground,0
+1991,France,atmosphere,0
+1991,France,underground,6
+1991,India,atmosphere,0
+1991,India,underground,0
+1991,North Korea,atmosphere,0
+1991,North Korea,underground,0
+1991,Pakistan,atmosphere,0
+1991,Pakistan,underground,0
+1991,Russia,atmosphere,0
+1991,Russia,underground,0
+1991,United Kingdom,atmosphere,0
+1991,United Kingdom,underground,1
+1991,United States,atmosphere,0
+1991,United States,underground,7
+1992,China,atmosphere,0
+1992,China,underground,2
+1992,France,atmosphere,0
+1992,France,underground,0
+1992,India,atmosphere,0
+1992,India,underground,0
+1992,North Korea,atmosphere,0
+1992,North Korea,underground,0
+1992,Pakistan,atmosphere,0
+1992,Pakistan,underground,0
+1992,Russia,atmosphere,0
+1992,Russia,underground,0
+1992,United Kingdom,atmosphere,0
+1992,United Kingdom,underground,0
+1992,United States,atmosphere,0
+1992,United States,underground,6
+1993,China,atmosphere,0
+1993,China,underground,1
+1993,France,atmosphere,0
+1993,France,underground,0
+1993,India,atmosphere,0
+1993,India,underground,0
+1993,North Korea,atmosphere,0
+1993,North Korea,underground,0
+1993,Pakistan,atmosphere,0
+1993,Pakistan,underground,0
+1993,Russia,atmosphere,0
+1993,Russia,underground,0
+1993,United Kingdom,atmosphere,0
+1993,United Kingdom,underground,0
+1993,United States,atmosphere,0
+1993,United States,underground,0
+1994,China,atmosphere,0
+1994,China,underground,2
+1994,France,atmosphere,0
+1994,France,underground,0
+1994,India,atmosphere,0
+1994,India,underground,0
+1994,North Korea,atmosphere,0
+1994,North Korea,underground,0
+1994,Pakistan,atmosphere,0
+1994,Pakistan,underground,0
+1994,Russia,atmosphere,0
+1994,Russia,underground,0
+1994,United Kingdom,atmosphere,0
+1994,United Kingdom,underground,0
+1994,United States,atmosphere,0
+1994,United States,underground,0
+1995,China,atmosphere,0
+1995,China,underground,2
+1995,France,atmosphere,0
+1995,France,underground,5
+1995,India,atmosphere,0
+1995,India,underground,0
+1995,North Korea,atmosphere,0
+1995,North Korea,underground,0
+1995,Pakistan,atmosphere,0
+1995,Pakistan,underground,0
+1995,Russia,atmosphere,0
+1995,Russia,underground,0
+1995,United Kingdom,atmosphere,0
+1995,United Kingdom,underground,0
+1995,United States,atmosphere,0
+1995,United States,underground,0
+1996,China,atmosphere,0
+1996,China,underground,2
+1996,France,atmosphere,0
+1996,France,underground,1
+1996,India,atmosphere,0
+1996,India,underground,0
+1996,North Korea,atmosphere,0
+1996,North Korea,underground,0
+1996,Pakistan,atmosphere,0
+1996,Pakistan,underground,0
+1996,Russia,atmosphere,0
+1996,Russia,underground,0
+1996,United Kingdom,atmosphere,0
+1996,United Kingdom,underground,0
+1996,United States,atmosphere,0
+1996,United States,underground,0
+1997,China,atmosphere,0
+1997,China,underground,0
+1997,France,atmosphere,0
+1997,France,underground,0
+1997,India,atmosphere,0
+1997,India,underground,0
+1997,North Korea,atmosphere,0
+1997,North Korea,underground,0
+1997,Pakistan,atmosphere,0
+1997,Pakistan,underground,0
+1997,Russia,atmosphere,0
+1997,Russia,underground,0
+1997,United Kingdom,atmosphere,0
+1997,United Kingdom,underground,0
+1997,United States,atmosphere,0
+1997,United States,underground,0
+1998,China,atmosphere,0
+1998,China,underground,0
+1998,France,atmosphere,0
+1998,France,underground,0
+1998,India,atmosphere,0
+1998,India,underground,2
+1998,North Korea,atmosphere,0
+1998,North Korea,underground,0
+1998,Pakistan,atmosphere,0
+1998,Pakistan,underground,2
+1998,Russia,atmosphere,0
+1998,Russia,underground,0
+1998,United Kingdom,atmosphere,0
+1998,United Kingdom,underground,0
+1998,United States,atmosphere,0
+1998,United States,underground,0
+1999,China,atmosphere,0
+1999,China,underground,0
+1999,France,atmosphere,0
+1999,France,underground,0
+1999,India,atmosphere,0
+1999,India,underground,0
+1999,North Korea,atmosphere,0
+1999,North Korea,underground,0
+1999,Pakistan,atmosphere,0
+1999,Pakistan,underground,0
+1999,Russia,atmosphere,0
+1999,Russia,underground,0
+1999,United Kingdom,atmosphere,0
+1999,United Kingdom,underground,0
+1999,United States,atmosphere,0
+1999,United States,underground,0
+2000,China,atmosphere,0
+2000,China,underground,0
+2000,France,atmosphere,0
+2000,France,underground,0
+2000,India,atmosphere,0
+2000,India,underground,0
+2000,North Korea,atmosphere,0
+2000,North Korea,underground,0
+2000,Pakistan,atmosphere,0
+2000,Pakistan,underground,0
+2000,Russia,atmosphere,0
+2000,Russia,underground,0
+2000,United Kingdom,atmosphere,0
+2000,United Kingdom,underground,0
+2000,United States,atmosphere,0
+2000,United States,underground,0
+2001,China,atmosphere,0
+2001,China,underground,0
+2001,France,atmosphere,0
+2001,France,underground,0
+2001,India,atmosphere,0
+2001,India,underground,0
+2001,North Korea,atmosphere,0
+2001,North Korea,underground,0
+2001,Pakistan,atmosphere,0
+2001,Pakistan,underground,0
+2001,Russia,atmosphere,0
+2001,Russia,underground,0
+2001,United Kingdom,atmosphere,0
+2001,United Kingdom,underground,0
+2001,United States,atmosphere,0
+2001,United States,underground,0
+2002,China,atmosphere,0
+2002,China,underground,0
+2002,France,atmosphere,0
+2002,France,underground,0
+2002,India,atmosphere,0
+2002,India,underground,0
+2002,North Korea,atmosphere,0
+2002,North Korea,underground,0
+2002,Pakistan,atmosphere,0
+2002,Pakistan,underground,0
+2002,Russia,atmosphere,0
+2002,Russia,underground,0
+2002,United Kingdom,atmosphere,0
+2002,United Kingdom,underground,0
+2002,United States,atmosphere,0
+2002,United States,underground,0
+2003,China,atmosphere,0
+2003,China,underground,0
+2003,France,atmosphere,0
+2003,France,underground,0
+2003,India,atmosphere,0
+2003,India,underground,0
+2003,North Korea,atmosphere,0
+2003,North Korea,underground,0
+2003,Pakistan,atmosphere,0
+2003,Pakistan,underground,0
+2003,Russia,atmosphere,0
+2003,Russia,underground,0
+2003,United Kingdom,atmosphere,0
+2003,United Kingdom,underground,0
+2003,United States,atmosphere,0
+2003,United States,underground,0
+2004,China,atmosphere,0
+2004,China,underground,0
+2004,France,atmosphere,0
+2004,France,underground,0
+2004,India,atmosphere,0
+2004,India,underground,0
+2004,North Korea,atmosphere,0
+2004,North Korea,underground,0
+2004,Pakistan,atmosphere,0
+2004,Pakistan,underground,0
+2004,Russia,atmosphere,0
+2004,Russia,underground,0
+2004,United Kingdom,atmosphere,0
+2004,United Kingdom,underground,0
+2004,United States,atmosphere,0
+2004,United States,underground,0
+2005,China,atmosphere,0
+2005,China,underground,0
+2005,France,atmosphere,0
+2005,France,underground,0
+2005,India,atmosphere,0
+2005,India,underground,0
+2005,North Korea,atmosphere,0
+2005,North Korea,underground,0
+2005,Pakistan,atmosphere,0
+2005,Pakistan,underground,0
+2005,Russia,atmosphere,0
+2005,Russia,underground,0
+2005,United Kingdom,atmosphere,0
+2005,United Kingdom,underground,0
+2005,United States,atmosphere,0
+2005,United States,underground,0
+2006,China,atmosphere,0
+2006,China,underground,0
+2006,France,atmosphere,0
+2006,France,underground,0
+2006,India,atmosphere,0
+2006,India,underground,0
+2006,North Korea,atmosphere,0
+2006,North Korea,underground,1
+2006,Pakistan,atmosphere,0
+2006,Pakistan,underground,0
+2006,Russia,atmosphere,0
+2006,Russia,underground,0
+2006,United Kingdom,atmosphere,0
+2006,United Kingdom,underground,0
+2006,United States,atmosphere,0
+2006,United States,underground,0
+2007,China,atmosphere,0
+2007,China,underground,0
+2007,France,atmosphere,0
+2007,France,underground,0
+2007,India,atmosphere,0
+2007,India,underground,0
+2007,North Korea,atmosphere,0
+2007,North Korea,underground,0
+2007,Pakistan,atmosphere,0
+2007,Pakistan,underground,0
+2007,Russia,atmosphere,0
+2007,Russia,underground,0
+2007,United Kingdom,atmosphere,0
+2007,United Kingdom,underground,0
+2007,United States,atmosphere,0
+2007,United States,underground,0
+2008,China,atmosphere,0
+2008,China,underground,0
+2008,France,atmosphere,0
+2008,France,underground,0
+2008,India,atmosphere,0
+2008,India,underground,0
+2008,North Korea,atmosphere,0
+2008,North Korea,underground,0
+2008,Pakistan,atmosphere,0
+2008,Pakistan,underground,0
+2008,Russia,atmosphere,0
+2008,Russia,underground,0
+2008,United Kingdom,atmosphere,0
+2008,United Kingdom,underground,0
+2008,United States,atmosphere,0
+2008,United States,underground,0
+2009,China,atmosphere,0
+2009,China,underground,0
+2009,France,atmosphere,0
+2009,France,underground,0
+2009,India,atmosphere,0
+2009,India,underground,0
+2009,North Korea,atmosphere,0
+2009,North Korea,underground,1
+2009,Pakistan,atmosphere,0
+2009,Pakistan,underground,0
+2009,Russia,atmosphere,0
+2009,Russia,underground,0
+2009,United Kingdom,atmosphere,0
+2009,United Kingdom,underground,0
+2009,United States,atmosphere,0
+2009,United States,underground,0
+2010,China,atmosphere,0
+2010,China,underground,0
+2010,France,atmosphere,0
+2010,France,underground,0
+2010,India,atmosphere,0
+2010,India,underground,0
+2010,North Korea,atmosphere,0
+2010,North Korea,underground,0
+2010,Pakistan,atmosphere,0
+2010,Pakistan,underground,0
+2010,Russia,atmosphere,0
+2010,Russia,underground,0
+2010,United Kingdom,atmosphere,0
+2010,United Kingdom,underground,0
+2010,United States,atmosphere,0
+2010,United States,underground,0
+2011,China,atmosphere,0
+2011,China,underground,0
+2011,France,atmosphere,0
+2011,France,underground,0
+2011,India,atmosphere,0
+2011,India,underground,0
+2011,North Korea,atmosphere,0
+2011,North Korea,underground,0
+2011,Pakistan,atmosphere,0
+2011,Pakistan,underground,0
+2011,Russia,atmosphere,0
+2011,Russia,underground,0
+2011,United Kingdom,atmosphere,0
+2011,United Kingdom,underground,0
+2011,United States,atmosphere,0
+2011,United States,underground,0
+2012,China,atmosphere,0
+2012,China,underground,0
+2012,France,atmosphere,0
+2012,France,underground,0
+2012,India,atmosphere,0
+2012,India,underground,0
+2012,North Korea,atmosphere,0
+2012,North Korea,underground,0
+2012,Pakistan,atmosphere,0
+2012,Pakistan,underground,0
+2012,Russia,atmosphere,0
+2012,Russia,underground,0
+2012,United Kingdom,atmosphere,0
+2012,United Kingdom,underground,0
+2012,United States,atmosphere,0
+2012,United States,underground,0
+2013,China,atmosphere,0
+2013,China,underground,0
+2013,France,atmosphere,0
+2013,France,underground,0
+2013,India,atmosphere,0
+2013,India,underground,0
+2013,North Korea,atmosphere,0
+2013,North Korea,underground,1
+2013,Pakistan,atmosphere,0
+2013,Pakistan,underground,0
+2013,Russia,atmosphere,0
+2013,Russia,underground,0
+2013,United Kingdom,atmosphere,0
+2013,United Kingdom,underground,0
+2013,United States,atmosphere,0
+2013,United States,underground,0
+2014,China,atmosphere,0
+2014,China,underground,0
+2014,France,atmosphere,0
+2014,France,underground,0
+2014,India,atmosphere,0
+2014,India,underground,0
+2014,North Korea,atmosphere,0
+2014,North Korea,underground,0
+2014,Pakistan,atmosphere,0
+2014,Pakistan,underground,0
+2014,Russia,atmosphere,0
+2014,Russia,underground,0
+2014,United Kingdom,atmosphere,0
+2014,United Kingdom,underground,0
+2014,United States,atmosphere,0
+2014,United States,underground,0
+2015,China,atmosphere,0
+2015,China,underground,0
+2015,France,atmosphere,0
+2015,France,underground,0
+2015,India,atmosphere,0
+2015,India,underground,0
+2015,North Korea,atmosphere,0
+2015,North Korea,underground,0
+2015,Pakistan,atmosphere,0
+2015,Pakistan,underground,0
+2015,Russia,atmosphere,0
+2015,Russia,underground,0
+2015,United Kingdom,atmosphere,0
+2015,United Kingdom,underground,0
+2015,United States,atmosphere,0
+2015,United States,underground,0
+2016,China,atmosphere,0
+2016,China,underground,0
+2016,France,atmosphere,0
+2016,France,underground,0
+2016,India,atmosphere,0
+2016,India,underground,0
+2016,North Korea,atmosphere,0
+2016,North Korea,underground,2
+2016,Pakistan,atmosphere,0
+2016,Pakistan,underground,0
+2016,Russia,atmosphere,0
+2016,Russia,underground,0
+2016,United Kingdom,atmosphere,0
+2016,United Kingdom,underground,0
+2016,United States,atmosphere,0
+2016,United States,underground,0
+2017,China,atmosphere,0
+2017,China,underground,0
+2017,France,atmosphere,0
+2017,France,underground,0
+2017,India,atmosphere,0
+2017,India,underground,0
+2017,North Korea,atmosphere,0
+2017,North Korea,underground,1
+2017,Pakistan,atmosphere,0
+2017,Pakistan,underground,0
+2017,Russia,atmosphere,0
+2017,Russia,underground,0
+2017,United Kingdom,atmosphere,0
+2017,United Kingdom,underground,0
+2017,United States,atmosphere,0
+2017,United States,underground,0

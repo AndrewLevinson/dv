@@ -1,0 +1,87 @@
+<html>
+
+<head>
+  <title>US vs. Russia</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="favicon.png" />
+  <link href="style.css" rel=" stylesheet">
+
+  <!-- dependencies -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="fixed">
+      <h1>Decades of Nuclear Testing</h1>
+      <div class="legend">
+        <div class="legend-items">
+          <div data-key="0" class="decade">
+            <div class="four">
+            </div>
+            <p>1940's</p>
+          </div>
+          <div data-key="1" class="decade">
+            <div class="five">
+            </div>
+            <p>1950's</p>
+          </div>
+          <div data-key="2" class="decade">
+            <div class="six">
+            </div>
+            <p>1960's</p>
+          </div>
+          <div data-key="3" class="decade">
+            <div class="seven">
+            </div>
+            <p>1970's</p>
+          </div>
+          <div data-key="4" class="decade">
+            <div class="eight">
+            </div>
+            <p>1980's</p>
+          </div>
+          <div data-key="5" class="decade">
+            <div class="nine">
+            </div>
+            <p>1990's</p>
+          </div>
+          <div data-key="6" class="decade">
+            <div class="twenty">
+            </div>
+            <p>2000's</p>
+          </div>
+          <div data-key="7" class="decade">
+            <div class="twentyTen">
+            </div>
+            <p>2010's</p>
+          </div>
+        </div>
+      </div>
+
+      <p>🔊 NOW PLAYING 🔊<br><br>The song of the <span id="now-playing"></span> </p>
+
+
+      <audio id="player"></audio>
+      <p>---</p>
+    </div>
+    <div class="countries">
+      <div class="usa-head">
+        <h2>USA</h2>
+        <div class="usa">
+        </div>
+      </div>
+      <div class="russia-head">
+        <h2>Russia</h2>
+        <div class="russia"></div>
+      </div>
+      <div class="others-head">
+        <h2>Everyone Else</h2>
+        <div class="others"></div>
+      </div>
+    </div>
+  </div>
+  <script language="javascript" type="text/javascript" src="concept-1.js"></script>
+</body>
+
+</html>

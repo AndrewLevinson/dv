@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Marking Earthquake Activity</title>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- default styles -->
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <!-- custom styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body onresize="window.location.reload(true)">
+    <div class="panel">
+      <div class="content">
+        <div class="section">
+          <h4 class="sub-header">Summary</h4>
+          <p id="intro-sentence"></p>
+        </div>
+        <div class="section">
+          <h4 class="sub-header">
+            Focused Earthquake<span id="counter"></span>
+          </h4>
+
+          <div class="button-group">
+            <button class="button" type="button" id="prev" onclick="prev()">
+              ← Previous
+            </button>
+            <button
+              class="button"
+              type="button"
+              id="reset"
+              onclick="resetCount()"
+            >
+              Reset
+            </button>
+            <button class="button" type="button" id="next" onclick="next()">
+              Next →
+            </button>
+          </div>
+          <p id="active-quake"></p>
+          <div id="empty">
+            <h5>
+              Focus on a specific earthquake by using the next and previous
+              controls above.
+            </h5>
+          </div>
+        </div>
+        <div class="legend-holder section">
+          <h4 class="sub-header">Legend</h4>
+          <img src="assets/marker.svg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="canvas-holder"></div> -->
+    <!-- The container div for our leaflet map -->
+    <div id="quake-map"></div>
+
+    <!-- load our dependencies and sketch file -->
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+    <script src="lib/lodash.min.js"></script>
+    <script src="lib/brewer.js"></script>
+    <script src="sketch.js"></script>
+    <!-- <script src="sketch-original.js"></script> -->
+
+    <!-- p5.js will create a canvas element here at runtime -->
+  </body>
+</html>

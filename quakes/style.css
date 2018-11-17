@@ -1,0 +1,159 @@
+* {
+  --blue: #7c92f7;
+  --green: #7cf7e0;
+  --yellow: #f7cc7c;
+  --panel-background: #181d30;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  color: #fff;
+}
+
+/* hide p5 default canvas */
+#defaultCanvas0 {
+  display: none;
+}
+/* default dimensions for the leaflet map */
+#quake-map {
+  width: 75%;
+  height: 100%;
+  background-color: #272727;
+}
+.leaflet-control-attribution {
+  display: none;
+}
+
+/* average polylines */
+.avg {
+  opacity: 0;
+}
+
+/* styles for right panel */
+.panel {
+  background-color: var(--panel-background);
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  width: 25%;
+  min-width: 325px;
+  position: absolute;
+  filter: drop-shadow(0px 8px 10px #000);
+  z-index: 999;
+}
+
+.legend-holder {
+  width: 100%;
+  text-align: center;
+}
+
+.sub-header {
+  border-bottom: 1px dashed #fff;
+  text-align: left;
+}
+
+.legend-holder img {
+  width: 95%;
+  /* margin-top: 20px; */
+}
+
+.content {
+  width: 90%;
+  max-width: 460px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+span.mag {
+  color: var(--blue);
+  border-bottom: 1px dashed var(--blue);
+}
+
+span.depth {
+  color: var(--green);
+  border-bottom: 1px dashed var(--green);
+}
+
+span.place {
+  color: var(--yellow);
+  border-bottom: 1px dashed var(--yellow);
+}
+span.events {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 1px dashed #fff;
+}
+
+span.depthEval {
+  color: var(--green);
+}
+
+span.magEval {
+  color: var(--blue);
+}
+.section {
+  margin-bottom: 10%;
+}
+
+/* buttons */
+.button-group {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+button {
+  text-transform: uppercase;
+  background: transparent;
+  border-radius: 2px;
+  width: 100px;
+  transition: all 0.2s;
+  color: #fff;
+}
+button[disabled],
+button[disabled]:hover {
+  background-color: rgb(165, 165, 165);
+  color: rgba(0, 0, 0, 0.7);
+  cursor: default;
+}
+button:hover {
+  background-color: #fff;
+  color: var(--panel-background);
+  cursor: pointer;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+button:focus {
+  outline-color: var(--blue);
+}
+
+#empty {
+  border: 1px dashed #fff;
+  margin-top: 5%;
+}
+
+#empty > h5 {
+  padding: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+p {
+  line-height: 1.33;
+}
+
+#intro-sentence {
+  margin-top: -2.5%;
+}
+
+#counter {
+  /* opacity: 0.8; */
+  font-size: 75%;
+  float: right;
+  margin-top: 2px;
+}
