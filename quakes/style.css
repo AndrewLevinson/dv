@@ -95,6 +95,7 @@ span.depthEval {
 span.magEval {
   color: var(--blue);
 }
+
 .section {
   margin-bottom: 10%;
 }
@@ -110,7 +111,7 @@ button {
   text-transform: uppercase;
   background: transparent;
   border-radius: 2px;
-  width: 100px;
+  width: 85px;
   transition: all 0.2s;
   color: #fff;
 }
