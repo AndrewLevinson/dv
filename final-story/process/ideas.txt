@@ -1,0 +1,23 @@
+***1. Visualizing the timing of movie plot points to illustrate simplicity of classic hollywood film structure. (i.e., inciting incident page 10, pp1 page 30, pp2, 90, etc.)
+
+    - film api for gestures 
+
+2. Movie revenue and ratings overtime by genre popularity
+
+*3. Exploration of the dreaded ACL injury in sports. Specifically NFL. Visual essay showing comeback from injury rate, salary lost, positions that can comeback faster (QBs but not RBs) 
+
+4. If you're a multi-sport athlete, which sport should you choose? Explore money, injury risk, travel, free time, etc.
+
+5. Exploration of sports team performance and non-sport related metrics to determine if sports can effect people's live who don't like sports? (If the Giants do well, does someone who doesn't care about football's life change at all?) 
+
+6. What is the best diet at the perfect intersection of nutrition x price? 
+
+7. Compare budget breakdown between presidential administrations
+
+*8. Why are trees moving west in America? [https://www.theatlantic.com/science/archive/2017/05/go-west-my-sap/526899/]
+ - radiolab
+ 
+*9. The commodification of water. Track stock market index to access to water and cost for personal use to track trends. Is commodification going to promote healthy conservation or prevent human beings from accessing water in an unfair way?
+    - the water knife book; water rights in the southwest. Economy of calories. 
+    
+*10. The deterioration of reliable election polling due to changes in communication technology. From fivethirtyeight: "There’s also reason to worry about what’s going into the polls as response rates to polls decline and as newsrooms cut their budgets for traditional, high-quality surveys. Internet-based polling may eventually be a part of the solution, but for the most part,1 it was quite inaccurate in 2016 (we’ll go into more detail on this point in another article later this week)."

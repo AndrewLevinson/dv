@@ -1,0 +1,62 @@
+#
+# List of URLs pointing to publicly accessible data (including a brief description of the subject matter & data format)
+#
+# For example, the earthquake feeds we've been using could be summarized as:
+#   Description: Realtime feeds of recent earthquake times, locations, and magnitudes
+#   Provider: the US Geological Survey
+#   Format: multiple CSV files with different time/magnitude windows
+#   URL: https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
+
+Description: Wiki billboard/celebrity data - people, details, descriptions, etc.
+Provider: The Pudding (pudding.cool)
+Format: multiple csv files with celebrities popularity over the last three years and tools to keep lists updated 
+URL: https://github.com/the-pudding/wiki-billboard-data
+
+Description: OMB budget and spending data for the US government
+Provider: The White House Office of Management and Budget (OMB) // US Government
+Format: Excel and csv files
+URL: https://www.whitehouse.gov/omb/historical-tables/
+
+Description: Rows of trees with type, location, and number of stems at different time periods
+Provider: Purdue.edu
+Format: Excel file
+URL: https://purr.purdue.edu/publications/2403/1
+
+Description: Anterior Cruciate Ligament Injuries in National Football League Athletes From 2010 to 2013
+Provider: Orthopedic Journal of Sports Medicine
+Format: Report with data
+URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4780097/
+
+Description: Detailed water article on water investment
+Provider:
+Format: Detailed article with links to market data
+URL: https://commodity.com/soft-agricultural/water/
+
+Description: Five Plot Point Breakdowns for a lot of movies
+Provider: The Script Lab
+Format: Blog
+URL: https://thescriptlab.com/category/screenplay/five-plot-point-breakdowns/
+
+
+Description: Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal)
+Provider: The World Bank
+Format: CSV
+URL: https://data.worldbank.org/indicator/ER.GDP.FWTL.M3.KD
+
+
+Description: Food Nutrition Content
+Provider: United States Department of Agriculture's Food Composition Database
+Format: CSV
+URL: https://think.cs.vt.edu/corgis/csv/food/food.html
+
+
+Description: Music Analysis of 1 million most popular songs
+Provider: Million Song Dataset from Echo Nest
+Format: CSV
+https://think.cs.vt.edu/corgis/csv/music/music.html
+
+Description:  Plot, cast, crew, budget, and revenues of about 5000 films
+Provider: TMDB movie database (similar to IMDB set)
+Format: CSV
+url: https://www.kaggle.com/tmdb/tmdb-movie-metadata/home
+

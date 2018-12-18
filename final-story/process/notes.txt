@@ -1,0 +1,15 @@
+Pulp fiction is interesting case study. 3 different films. Doesn't follow conventional rules
+
+to do 
+- Find Theory plot points for tooltip [10%, 25%, 50%, 75%, 88%]
+- add up and down arrows to communicate above or below avg in moment table
+- legend!!
+- add other film info topics from working movies excel (budget, release date, studio, tagline?)
+- add/update readme!!
+- add more movies
+
+ideas
+- encode revenue? rating? etc
+- plot theory as dotted line on curve?
+- at ppt pp and % on hover for movie
+
