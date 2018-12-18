@@ -1,5 +1,5 @@
 // load data
-const rawData = d3.csv("../data/clean/movies.csv", d => {
+const rawData = d3.csv("data/clean/movies.csv", d => {
   return {
     movieName: d["Unique Films"],
     revenue: +d["revenue"],
