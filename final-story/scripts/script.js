@@ -247,12 +247,9 @@ let svg = data => {
     return d.p;
   });
   var max_p = d3.max([d1, d2, d3p, d4, d5]);
-  // var max_p = d3.max([d1]);
 
-  // xLine.domain([min_d, max_d]).nice;
-
-  console.log("min_d", min_d);
-  console.log("max_d", max_d);
+  // console.log("min_d", min_d);
+  // console.log("max_d", max_d);
   // xLine.domain([0, 100]).nice;
 
   var y = d3
@@ -281,7 +278,6 @@ let svg = data => {
       d3.select(this).moveToFront();
       pathGroup.attr("class", "inactive");
       d3.select(this).attr("class", "active line");
-      console.log(d3.select(this));
       tooltip.show(
         `<div class="total"><h5>Plot Point 1: Inciting Incident</h5></div>
         <div class="total double">Description</div>
@@ -303,7 +299,6 @@ let svg = data => {
       d3.select(this).moveToFront();
       pathGroup.attr("class", "inactive");
       d3.select(this).attr("class", "active line");
-      console.log(d3.select(this));
       tooltip.show(
         `<div class="total"><h5>Plot Point 2: The Lock In</h5></div>
         <div class="total double">Description</div>
@@ -326,7 +321,6 @@ let svg = data => {
       d3.select(this).moveToFront();
       pathGroup.attr("class", "inactive");
       d3.select(this).attr("class", "active line");
-      console.log(d3.select(this));
       tooltip.show(
         `
         <div class="total"><h5>Plot Point 3: First Culmination (midpoint)</h5></div>
@@ -350,7 +344,6 @@ let svg = data => {
       d3.select(this).moveToFront();
       pathGroup.attr("class", "inactive");
       d3.select(this).attr("class", "active line");
-      console.log(d3.select(this));
       tooltip.show(
         `
         <div class="total"><h5>Plot Point 4: Main Culmination</h5></div>
@@ -374,7 +367,6 @@ let svg = data => {
       d3.select(this).moveToFront();
       pathGroup.attr("class", "inactive");
       d3.select(this).attr("class", "active line");
-      console.log(d3.select(this));
       tooltip.show(
         `
         <div class="total"><h5>Plot Point 5: Third Act Twist</h5></div>
@@ -398,7 +390,6 @@ let svg = data => {
     });
 
   function normalDist(mean, sd) {
-    console.log(mean - 4 * sd);
     dataLine = [];
     for (var i = mean - 4 * sd; i < mean + 4 * sd; i += 1) {
       q = i;
@@ -411,7 +402,7 @@ let svg = data => {
     }
     return dataLine;
   }
-  console.log(dataLine);
+  // console.log(dataLine);
 
   // add group with points and data
   let group = graph.append("g").attr("id", "group");
@@ -431,6 +422,14 @@ let svg = data => {
     });
   };
 
+  let reset = document.getElementById("reset");
+  reset.addEventListener("click", function() {
+    points.attr("class", function(d) {
+      return d.movieName;
+    });
+    reset.style.opacity = 0;
+  });
+
   let points = group
     .selectAll("g")
     .data(data)
@@ -445,10 +444,15 @@ let svg = data => {
       d3.select(this).moveToFront();
       points.attr("class", "inactive");
       d3.select(this).attr("class", "active");
-      console.log(d3.select(this));
       tooltip.show(
         `<strong>${d.movieName}</strong><br>Click to see details below ↓`
       );
+      reset.style.opacity = 1;
+    })
+    .on("click", function(d) {
+      d3.select(this).moveToFront();
+      points.attr("class", "inactive");
+      d3.select(this).attr("class", "active");
     })
     .on("mousemove", function(d) {
       // points.attr("class", function(d) {
@@ -457,9 +461,9 @@ let svg = data => {
       tooltip.move();
     })
     .on("mouseout", function(d) {
-      points.attr("class", function(d) {
-        return d.movieName;
-      });
+      // points.attr("class", function(d) {
+      //   return d.movieName;
+      // });
       tooltip.hide();
     });
 
@@ -546,12 +550,10 @@ let svg = data => {
   const numFormatF = d3.format(".0f"); // 0 decimals
 
   points.on("click", function(d, i) {
-    // resetStrokeAndFill();
-    // d3.select(this).attr("stroke", "#00FF40");
-    // dynamically set title to active country
+    // dynamically set title to active movie
     let activeMove = document.getElementById("active-movie");
     activeMove.innerHTML = `${d.movieName}`;
-
+    reset.style.opacity = 1;
     let infoTable = document.querySelector(".info-table");
 
     infoTable.innerHTML = `

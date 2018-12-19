@@ -45,12 +45,40 @@ body {
 
 .chart {
   position: sticky;
+  position: -webkit-sticky;
   top: -1px;
   background-color: var(--main-bg-color);
 }
+
+button {
+  height: 35px;
+  min-width: 40px;
+  border-radius: 6px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #66495c;
+  background-color: var(--main-bg-color);
+  cursor: pointer;
+  border-color: #66495c;
+  opacity: 0;
+  z-index: 999;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 20px;
+  float: right;
+  transition: 0.2s all ease-in-out;
+}
+
+button:hover {
+  background-color: #66495c;
+  color: #fff;
+  transition: 0.2s all ease-in-out;
+}
+
 #active-movie {
   position: sticky;
-  top: 10px;
+  position: -webkit-sticky;
+  top: 20px;
   /* font-style: italic; */
   /* font-weight: 300; */
 }
@@ -62,7 +90,6 @@ hr {
   margin-right: auto;
   background-color: #68696b;
   opacity: 0.8;
-  z-index: -999;
 }
 
 #plot-one {
