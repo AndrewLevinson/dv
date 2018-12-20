@@ -41,7 +41,7 @@ if (window.innerWidth <= 550) {
   height = window.innerHeight * 0.4;
 } else {
   width = window.innerWidth * 0.95;
-  height = window.innerHeight * 0.33;
+  height = window.innerHeight * 0.36;
   // height = window.innerHeight * 1.5;
 }
 
@@ -96,7 +96,11 @@ let svg = data => {
   let xAxis = g =>
     g
       .attr("transform", `translate(${0},${height})`)
-      .call(d3.axisBottom(x))
+      .call(
+        d3.axisBottom(x).tickFormat(d => {
+          return `${d}%`;
+        })
+      )
       .attr("id", "xAxis");
 
   // let yAxis = g =>
@@ -468,7 +472,7 @@ let svg = data => {
       return 50;
     }) // TODO
     .attr("x", (d, i) => {
-      return x((d.pp1 / d.runtime) * 100);
+      return x((d.pp1 / d.runtime) * 100 - 0.5);
     })
     .attr("y", (d, i) => {
       return height - 50;
@@ -483,7 +487,7 @@ let svg = data => {
       return 50;
     }) // TODO
     .attr("x", (d, i) => {
-      return x((d.pp2 / d.runtime) * 100);
+      return x((d.pp2 / d.runtime) * 100 - 0.5);
     })
     .attr("y", (d, i) => {
       return height - margin;
@@ -498,7 +502,7 @@ let svg = data => {
       return 50;
     }) // TODO
     .attr("x", (d, i) => {
-      return x((d.pp3 / d.runtime) * 100);
+      return x((d.pp3 / d.runtime) * 100 - 0.5);
     })
     .attr("y", (d, i) => {
       return height - margin;
@@ -513,7 +517,7 @@ let svg = data => {
       return 50;
     }) // TODO
     .attr("x", (d, i) => {
-      return x((d.pp4 / d.runtime) * 100);
+      return x((d.pp4 / d.runtime) * 100 - 0.5);
     })
     .attr("y", (d, i) => {
       return height - margin;
@@ -528,7 +532,7 @@ let svg = data => {
       return 50;
     }) // TODO
     .attr("x", (d, i) => {
-      return x((d.pp5 / d.runtime) * 100);
+      return x((d.pp5 / d.runtime) * 100 - 0.5);
     })
     .attr("y", (d, i) => {
       return height - margin;
@@ -589,7 +593,7 @@ let svg = data => {
       <tbody>
         <tr>
           <td class="left bottom"><span class="plot-icon" id="plot-one"></span><span id="nowrap">Inciting Incident<span></td>
-          <td class="left bottom"><span class="digits"><span class="pp">Page ${
+          <td class="left bottom"><span class="digits"><span class="pp">Min. ${
             d.pp1
           }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp1 / d.runtime) * 100
@@ -602,7 +606,7 @@ let svg = data => {
         </tr>
         <tr>
         <td class="left bottom"><span class="plot-icon" id="plot-two"></span><span id="nowrap">Lock In<span></td>
-        <td class="left bottom"><span class="digits"><span class="pp">Page ${
+        <td class="left bottom"><span class="digits"><span class="pp">Min. ${
           d.pp2
         }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp2 / d.runtime) * 100
@@ -611,7 +615,7 @@ let svg = data => {
         <td class="left bottom"><div class="plot-desc">${d.lockIn}</div></td>
       </tr>
         <td class="left bottom"><span class="plot-icon" id="plot-three"></span><span id="nowrap">First Culmination<span></td>
-        <td class="left bottom"><span class="digits"><span class="pp">Page ${
+        <td class="left bottom"><span class="digits"><span class="pp">Min. ${
           d.pp3
         }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp3 / d.runtime) * 100
@@ -621,7 +625,7 @@ let svg = data => {
       </tr>
       </tr>
         <td class="left bottom"><span class="plot-icon" id="plot-four"></span><span id="nowrap">Main Culmination<span></td>
-        <td class="left bottom"><span class="digits"><span class="pp">Page ${
+        <td class="left bottom"><span class="digits"><span class="pp">Min. ${
           d.pp4
         }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp4 / d.runtime) * 100
@@ -633,7 +637,7 @@ let svg = data => {
     </tr>
     </tr>
     <td class="left bottom"><span class="plot-icon" id="plot-five"></span><span id="nowrap">Third Act Twist<span></td>
-    <td class="left bottom"><span class="digits"><span class="pp">Page ${
+    <td class="left bottom"><span class="digits"><span class="pp">Min. ${
       d.pp5
     }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp5 / d.runtime) * 100

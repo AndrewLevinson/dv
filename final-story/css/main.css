@@ -42,6 +42,9 @@ body {
 .title > p {
   margin-top: -1.9rem;
 }
+.title > h2 {
+  margin-top: 3rem;
+}
 
 .chart {
   position: sticky;
