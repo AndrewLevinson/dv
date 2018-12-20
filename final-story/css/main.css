@@ -79,8 +79,8 @@ button:hover {
   position: sticky;
   position: -webkit-sticky;
   top: 20px;
-  /* font-style: italic; */
-  /* font-weight: 300; */
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 hr {
@@ -152,13 +152,21 @@ rect {
   /* margin: 0 auto; */
 }
 
+/* .title-section {
+  display: flex;
+  justify-content: space-between;
+} */
+
 .dynamic-content {
   display: flex;
   justify-content: space-between;
+  /* align-items: baseline; */
 }
 
 .points-text {
-  margin-left: 5rem;
+  margin-left: 2rem;
+  /* margin-top: 100px; */
+  margin-top: -0.4rem;
 }
 
 /* tooltip */
@@ -194,6 +202,10 @@ div.tooltip {
 
 #nowrap {
   white-space: nowrap;
+}
+
+.film-info-table {
+  /* margin-top: 2.5rem; */
 }
 
 table {

@@ -323,7 +323,7 @@ let svg = data => {
       d3.select(this).attr("class", "active line");
       tooltip.show(
         `
-        <div class="total"><h5>Plot Point 3: First Culmination (midpoint)</h5></div>
+        <div class="total"><h5>Plot Point 3: First Culmination</h5></div>
         <div class="total double">Description</div>
        The first culmination generally occurs around the midpoint of the second act and is a pivotal moment in the story but not as critical as the Lock In or Main Culmination. Consider the first culmination as the second highest or second lowest point in Act Two, the second highest hurdle to be faced.<br><br>
        <div class="double total">Moment in Movie</div>
@@ -557,29 +557,26 @@ let svg = data => {
     let infoTable = document.querySelector(".info-table");
 
     infoTable.innerHTML = `
-    <table>
+    <table class="film-info-table">
         <caption>
         </caption>
         <thead>
           <tr>
-          <th class="left double">Film Info</th>
-          <th class="right double"></th>
+          <th class="left" colspan="2"></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="left tick">Genre</td>
+            <td class="left">Genre</td>
             <td class="negative">${d.genre[0].name}</td>
           </tr>
           <tr>
-          <td class="left tick">IMDB Rating</td>
+          <td class="left">IMDB Rating</td>
           <td class="negative">${d.rating}</td>
         </tr>
           <tr>
-            <td class="left tick double">Revenue</td>
-            <td class="negative double">$${numFormatT(
-              d.revenue / 1000000
-            )}MM</td>
+            <td class="left ">Revenue</td>
+            <td class="negative ">$${numFormatT(d.revenue / 1000000)}MM</td>
           </tr>
           </tbody>
           </table>`;
