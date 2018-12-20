@@ -41,7 +41,7 @@ if (window.innerWidth <= 550) {
   height = window.innerHeight * 0.4;
 } else {
   width = window.innerWidth * 0.95;
-  height = window.innerHeight * 0.4;
+  height = window.innerHeight * 0.33;
   // height = window.innerHeight * 1.5;
 }
 
@@ -422,14 +422,6 @@ let svg = data => {
     });
   };
 
-  let reset = document.getElementById("reset");
-  reset.addEventListener("click", function() {
-    points.attr("class", function(d) {
-      return d.movieName;
-    });
-    reset.style.opacity = 0;
-  });
-
   let points = group
     .selectAll("g")
     .data(data)
@@ -549,12 +541,14 @@ let svg = data => {
   // const numFormatF = d3.format(".2f"); // 2 decimals
   const numFormatF = d3.format(".0f"); // 0 decimals
 
+  let activeMove = document.getElementById("active-movie");
+  let infoTable = document.querySelector(".info-table");
+  let pointsText = document.querySelector(".points-text");
+
   points.on("click", function(d, i) {
     // dynamically set title to active movie
-    let activeMove = document.getElementById("active-movie");
     activeMove.innerHTML = `${d.movieName}`;
     reset.style.opacity = 1;
-    let infoTable = document.querySelector(".info-table");
 
     infoTable.innerHTML = `
     <table class="film-info-table">
@@ -581,7 +575,6 @@ let svg = data => {
           </tbody>
           </table>`;
 
-    let pointsText = document.querySelector(".points-text");
     pointsText.innerHTML = `
     <table>
       <caption>
@@ -589,50 +582,77 @@ let svg = data => {
       <thead>
         <tr>
           <th class="left double" colspan="1">Plot Point</th>
-          <th class="left double" colspan="1">Moment (${d.runtime} pp)</th>
+          <th class="left double" colspan="1">Moment (${d.runtime} min.)</th>
           <th class="left double" colspan="1">Description</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td class="left bottom"><span class="plot-icon" id="plot-one"></span><span id="nowrap">Inciting Incident<span></td>
-          <td class="left bottom">Page ${d.pp1} | <strong>${numFormatF(
+          <td class="left bottom"><span class="digits"><span class="pp">Page ${
+            d.pp1
+          }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp1 / d.runtime) * 100
-    )}%</strong></td>
-          <td class="left bottom"><div class="plot-desc">${
-            d.inciting
-          }</div></td>
+    )}%</span>
+          </td>
+            <td class="left bottom"><div class="plot-desc">${
+              d.inciting
+            }</div></span>
+          </td>
         </tr>
         <tr>
         <td class="left bottom"><span class="plot-icon" id="plot-two"></span><span id="nowrap">Lock In<span></td>
-        <td class="left bottom">Page ${d.pp2} | <strong>${numFormatF(
+        <td class="left bottom"><span class="digits"><span class="pp">Page ${
+          d.pp2
+        }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp2 / d.runtime) * 100
-    )}%</strong></td>
+    )}%</span>
+        </td>
         <td class="left bottom"><div class="plot-desc">${d.lockIn}</div></td>
       </tr>
         <td class="left bottom"><span class="plot-icon" id="plot-three"></span><span id="nowrap">First Culmination<span></td>
-        <td class="left bottom">Page ${d.pp3} | <strong>${numFormatF(
+        <td class="left bottom"><span class="digits"><span class="pp">Page ${
+          d.pp3
+        }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp3 / d.runtime) * 100
-    )}%</strong></td>
+    )}%</span>
+        </td>
         <td class="left bottom"><div class="plot-desc">${d.midpoint}</div></td>
       </tr>
       </tr>
         <td class="left bottom"><span class="plot-icon" id="plot-four"></span><span id="nowrap">Main Culmination<span></td>
-        <td class="left bottom">Page ${d.pp4} | <strong>${numFormatF(
+        <td class="left bottom"><span class="digits"><span class="pp">Page ${
+          d.pp4
+        }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp4 / d.runtime) * 100
-    )}%</strong></td>
+    )}%</span>
+        </td>
         <td class="left bottom"><div class="plot-desc">${
           d.mainCulmination
         }</div></td>
     </tr>
     </tr>
     <td class="left bottom"><span class="plot-icon" id="plot-five"></span><span id="nowrap">Third Act Twist<span></td>
-    <td class="left bottom">Page ${d.pp5} | <strong>${numFormatF(
+    <td class="left bottom"><span class="digits"><span class="pp">Page ${
+      d.pp5
+    }</span><span class="center"> | </span><span class="pull-right bold">${numFormatF(
       (d.pp5 / d.runtime) * 100
-    )}%</strong></td>
+    )}%</span>
+    </td>
     <td class="left bottom"><div class="plot-desc">${d.twist}</div></td>
 </tr>
      </tbody>
     </table>`;
+  });
+
+  let reset = document.getElementById("reset");
+  reset.addEventListener("click", function() {
+    points.attr("class", function(d) {
+      return d.movieName;
+    });
+    pathGroup.style("opacity", 1);
+    pointsText.innerHTML = ``;
+    activeMove.innerHTML = `Select a movie to see more info ↗`;
+    reset.style.opacity = 0;
   });
 };
