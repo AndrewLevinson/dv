@@ -263,12 +263,14 @@ let svg = data => {
 
   var line = d3
     .line()
-    .x(function(d) {
+    .x(d => {
       return x(d.q);
     })
-    .y(function(d) {
+    .curve(d3.curveBundle.beta(1))
+    .y(d => {
       return y(d.p);
-    });
+    })
+    .curve(d3.curveBundle.beta(1));
 
   let pathGroup = graph.append("g").attr("id", "path-group");
 

@@ -30,6 +30,18 @@ body {
   padding: 0;
 }
 
+a {
+  color: #d57966;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #3b3b3d;
+}
+
 .container {
   width: 95%;
   margin: 0 auto;
@@ -341,4 +353,55 @@ strong {
 .border {
   border-bottom: 1px dashed #68696b;
   font-weight: 500;
+}
+
+.sources {
+  margin-top: 5rem;
+  opacity: 0.8;
+}
+/* Accordion
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button-foot {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  opacity: 1;
+  margin: 0px;
+  line-height: 0;
+  color: #3b3b3d;
+  margin-left: -1.6rem;
+}
+
+.button-foot:hover {
+  color: #66495c;
+  border: none;
+  outline: none;
+  background-color: var(--main-bg-color);
+}
+
+.button-foot:after {
+  content: "\02795";
+  font-size: 13px;
+  margin-left: 0.6rem;
+}
+
+.button-foot.active:after {
+  content: "\2796";
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.footnotes {
+  border-bottom: 1px dashed rgba(59, 59, 61, 0.5);
+  /* opacity: 0.75; */
+  font-size: 80%;
+  /* width: 80%; */
+  margin-bottom: 2.5%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.footnotes h6 {
+  margin-top: 1.5rem;
 }

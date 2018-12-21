@@ -42,25 +42,75 @@
       <div class="chart"></div>
 
       <div class="info-section">
-        <!-- <hr /> -->
         <div class="dynamic-content">
           <div class="title-section">
             <h4 id="active-movie">Select a movie to see more info ↗</h4>
             <div class="points-text"></div>
           </div>
           <div class="info-table" style="display: none"></div>
-          <!-- <div class="points-text"></div> -->
+        </div>
+        <div class="sources">
+          <button class="accordion button-foot">Sources</button>
+          <div class="footnotes">
+            <!-- <h6>Methodology and Sources</h6> -->
+            <p>
+              This story was created by
+              <a href="http://andrewlevinson.me/" target="_blank"
+                >Andrew Levinson</a
+              >
+              as an academic project in the
+              <a
+                href="https://www.newschool.edu/parsons/ms-data-visualization/"
+                target="_blank"
+                >Data Visualization masters program</a
+              >
+              at Parsons School of Design // The New School.
+            </p>
+
+            <p>Sources & Credit:</p>
+            <ol>
+              <li>
+                TMDB 5000 Movie Dataset found on Kaggle (Updated 2017).
+                <a
+                  href="https://www.kaggle.com/tmdb/tmdb-movie-metadata/home"
+                  target="_blank"
+                >
+                  Link to resource</a
+                >
+              </li>
+              <li>
+                Plot point descriptions and plot point breakdown of films come
+                from The Script Lab.
+                <a href="https://thescriptlab.com/" target="_blank">
+                  Link to resource</a
+                >
+              </li>
+              <li>
+                D3 code for the normal distribution paths inspired by Efrat
+                Vilenski’s Block (2016).
+                <a
+                  href="https://bl.ocks.org/EfratVil/99462577a475bbad4be1146caca75a58"
+                  target="_blank"
+                >
+                  Link to code block</a
+                >
+              </li>
+            </ol>
+            <p>
+              Feel free to
+              <a href="mailto:andrewlevins@gmail.com" target="_blank"
+                >contact me</a
+              >.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
-    <script src="scripts/d3.js"></script>
-
-    <!--
-      <script src="https://cdn.jsdelivr.net/jstat/latest/jstat.min.js"></script>
-    -->
-    <script src="scripts/jstat.js"></script>
-
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- <script src="scripts/d3.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/jstat/latest/jstat.min.js"></script>
+    <!-- <script src="scripts/jstat.js"></script> -->
     <script src="scripts/script.js"></script>
+    <script src="scripts/accord.js"></script>
   </body>
 </html>
