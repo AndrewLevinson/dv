@@ -35,7 +35,7 @@ let width, height;
 // update svg sizing to work with breakpoints in css media queries
 if (window.innerWidth <= 550) {
   width = window.innerWidth * 0.95;
-  height = window.innerHeight * 0.75;
+  height = window.innerHeight * 0.4;
 } else if (window.innerWidth <= 925) {
   width = window.innerWidth * 0.95;
   height = window.innerHeight * 0.4;
