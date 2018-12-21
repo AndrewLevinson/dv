@@ -377,6 +377,7 @@ strong {
   color: #66495c;
   border: none;
   outline: none;
+  font-weight: 900;
   background-color: var(--main-bg-color);
 }
 
