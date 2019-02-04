@@ -14,8 +14,8 @@ function setup() {
   createCanvas(canvasX, canvasY);
 
   noStroke();
-  console.log("canvas x: ", canvasX);
-  console.log("canvas y: ", canvasY);
+  // console.log("canvas x: ", canvasX);
+  // console.log("canvas y: ", canvasY);
 }
 
 function draw() {
@@ -33,7 +33,7 @@ function draw() {
   } else {
     totalHours = now.hour;
   }
-  console.log(totalHours);
+  // console.log(totalHours);
 
   // seconds balls
   // create balls to match seconds count
@@ -162,7 +162,7 @@ function ball(posX, posY, size, shelfY, shelfWidth, color, isYear) {
   };
 }
 
-function mouseReleased() {
-  remove();
-  console.log("canvas removed");
-}
+// function mouseReleased() {
+//   remove();
+//   console.log("canvas removed");
+// }

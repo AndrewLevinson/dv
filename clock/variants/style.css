@@ -14,7 +14,8 @@ canvas {
   cursor: pointer;
 }
 
-#sketch-holder {
-  filter: drop-shadow(0px 8px 16px #000);
+iframe {
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px #000;
   text-align: center;
 }
