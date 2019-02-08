@@ -29,7 +29,7 @@ the earthquake data geospatially and diagrammatically.
 
 - Plotting significant events over the last month, where there are 13 since the marker symbols are quite detailed and benefit from as much space as possible.
 
-![marker](../assets/marker.svg)
+![marker](assets/marker.svg)
 
 - These symbols are plotted on the map and are connected by a dotted line to visualize the order in which they occurred.
 
